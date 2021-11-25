@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bebas Neue", cursive;
+
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid violet; */
+  background-color: rgb(248, 179, 248);
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav h1 {
+  /* border: 2px solid black; */
+  width: 50%;
+  text-align: center;
+  color: #3f3d56;
+  font-size: 80px;
+}
+
+img {
+  width: 30%;
+  height: 50%;
+}
+
+.container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 10px solid black; */
+}
+
+.inner-cont {
+  width: 100%;
+  height: 100%;
+  /* border: 10px solid pink; */
+  text-align: center;
+}
+
+.Heading {
+  width: 100%;
+  height: 100%;
+}
+
+#content {
+  /* position: absolute; */
+  /* border: 2px solid red; */
+  /* visibility: hidden; */
+  width: 100%;
+  height: 60%;
+  /* height: ; */
+}
+
+h1 {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 20%;
+}
+#loader {
+  /* border: 2px solid yellow; */
+  width: 100%;
+  height: 20%;
+}
+
+#form {
+  /* margin: 1vh; */
+  /* border: 2px solid black; */
+  color: #3f3d56;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(248, 179, 248);
+}
+
+.form-group {
+  width: 100%;
+  text-align: center;
+  /* border: 2px solid green; */
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-group select {
+  width: 33%;
+  height: 15vh;
+  border: 0.5vh solid violet;
+}
+
+button {
+  margin: 1vh;
+  display: block;
+  width: 45vh;
+  padding: 2vh;
+  font-size: 4vh;
+  /* background-color: violet; */
+  background-color:  #3f3d56;;
+  border: none;
+  border-radius: 25px;
+  /* color: #3f3d56; */
+  color: white;
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+
+a {
+  margin: 1vh;
+  display: block;
+  width: 45vh;
+  padding: 2vh;
+  font-size: 4vh;
+  text-decoration: none;
+  background-color: violet;
+  border: none;
+  border-radius: 25px;
+  color: #3f3d56;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form-group label {
+  font-size: 6vh;
+  /* font-weight: bold; */
+}
+.form-group select {
+  font-size: 3vh;
+  height: 4vh;
+  /* border: 2px solid violet; */
+}
+
+#form img {
+  width: 30%;
+  height: 30%;
+}
+
+.Heading h1 {
+  font-size: 7vh;
+  color: #3f3d56;
+}
+
+#content {
+  /* display: none; */
+  /* border: 2px solid purple; */
+
+}
+.table {
+  width: 60%;
+  max-height: 80vh;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+th {
+  border: 1px solid black;
+  height: 5vh;
+  font-size: 3vh;
+  color: #3f3d56;
+  border-radius: 5px;
+}
+tr {
+  border: 1px solid black;
+  background-color: rgb(169, 210, 238);
+  height: 5vh;
+  color: #3f3d56;
+  font-size: 3vh;
+  border-radius: 5px;
+}
+td{
+    height: 5vh  ;
+}
+#accountAddress {
+  font-size: 4vh;
+  color: #3f3d56;
+  font-weight: bold;
+}
+
+#candidateResults {
+  color: #3f3d56;
+}
+
